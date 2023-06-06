@@ -60,6 +60,10 @@ function _processFile(filePath, watchEvent) {
         return renderAssets();
     }
 
+    if (filePath.match(/src\/papers\//)) {
+        return renderPapers();
+    }
+
 }
 
 function _handlePug(filePath, watchEvent) {
