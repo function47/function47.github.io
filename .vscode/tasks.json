@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: build",
+			"detail": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:papers"
+		}
+	]
+}

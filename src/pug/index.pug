@@ -47,7 +47,7 @@ html(lang='en')
                         td
                             p
                                 Strong Contact:
-                                | zhhan at(symbol) dot coe dot neu dot edu
+                                | #[a(href='mailto:zhhan@coe.neu.edu') zhhan at(symbol) coe dot neu dot edu]
                         td 
                             a.btn.btn-outline-primary.btn-xs(style="padding-left: 2; padding-right: 2; padding-top: 0; padding-bottom: 0", href="https://www.github.com/function47/")
                                 i(class="fa fa-github")  
@@ -57,69 +57,49 @@ html(lang='en')
                         td 
                             a.btn.btn-outline-primary.btn-xs(style="padding-left: 2; padding-right: 2; padding-top: 0; padding-bottom: 0", href="https://www.linkedin.com/in/zhaoyang-han-607085107")
                                 i(class="fa fa-linkedin")  
+                        td 
+                            a.btn.btn-outline-primary.btn-xs(style="padding-left: 2; padding-right: 2; padding-top: 0; padding-bottom: 0", href="personal/zhhan_cv24.pdf")
+                                i(class="fa fa-file-text")  
                 br
-                h2 Preprint
-                p.h5 #[a(href='https://61dac.conference-program.com/presentation/?id=RESEARCH209&sess=sess237') FOTA-Quant: FPGA-Oriented Token Adaptive Quantization Framework for the Acceleration of LLMs ] 
-                p.h5 (Poster)
+                h2 Publications
+
+                // FPT24
+                p.h5 #[a(href='papers/zhhan_fpt24.pdf') Memory-efficient Sketch Acceleration for Handling Large Network  Flows on FPGAs]
+                p.h5 (To Appear)
                 p 
-                    |Xuan Shen, 
                     strong Zhaoyang Han,
-                    | Peiyan Dong, Yanyue Xie, Zhenglun Kong, Zhengang Li, Yanzhi Wang, Miriam Leeser
+                    | Yicheng Qian, Michael Zink; Miriam Leeser 
                     br
-                    | (2024 Design Automation Conference)
-                    | (DAC'61)
+                    | 2024 International Conference on Field Programmable Technology
+                    | (ICFPT'24)
                     |, 2024
-                p.h5 #[a(href='https://arxiv.org/abs/2402.10787') EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge]
-                p.h5 (Preprint)
+                br
+
+                // TCAD
+                p.h5 #[a(href='papers/hotaq_tcad24.pdf') HotaQ: Hardware Oriented Token Adaptive Quantization for Large Language Models ]
+                p.h5 (Early Access)
                 p 
-                    |Xuan Shen, Zhenglun Kong, Changdi Yang, 
+                    | Xuan Shen,
                     strong Zhaoyang Han,
-                    | Lei Lu, Peiyan Dong, Cheng Lyu, Chih-hsiang Li, Xuehang Guo, Zhihao Shu, Wei Niu, Miriam Leeser, Pu Zhao, Yanzhi Wang 
+                    | Lei Lu, Zhenglun Kong, Peiyan Dong, Zhengang Li, Yanyue Xie, Chao Wu, Miriam Leeser, Pu Zhao, Xue Lin and Yanzhi Wang
                     br
-                    | arXiv preprint
+                    | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
+                    | (IEEE TCAD'24)
                     |, 2024
                 br
 
                 // CiSE
                 p.h5 #[ Realizing Network-Attached FPGAs in the Cloud ]
-                p.h5 (Under Revision)
+                p.h5 (Early Access)
                 p 
                     | Miriam Leeser, Suranga Handagala, Dana Diaconu,
                     strong Zhaoyang Han,
                     | Michael Zink 
                     br
                     | Computing in Science & Engineering 
-                    | (CiSE)
+                    | (IEEE CiSE)
                     |, 2024
                 br
-
-                h2 Publications
-                // TCAD
-                p.h5 #[ HotaQ: Hardware Oriented Token Adaptive Quantization for Large Language Models ]
-                p.h5 (Just Accepted)
-                p 
-                    | Xuan Shen,
-                    strong Zhaoyang Han,
-                    | et. al 
-                    br
-                    | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems
-                    | (IEEE TCAD)
-                    |, 2024
-                br
-
-
-                // FPT24
-                p.h5 #[ Memory-efficient Sketch Acceleration for Handling Large Network  Flows on FPGAs]
-                p.h5 (To Appear)
-                p 
-                    strong Zhaoyang Han,
-                    | Michael Zink; Miriam Leeser 
-                    br
-                    | 2024 International Conference on Field Programmable Technology
-                    | (FPT'24)
-                    |, 2024
-                br
-
 
                 // HPEC24 
                 p.h5 #[a(href='papers/zhhan_hpec24.pdf') Extracting TCPIP Headers at High Speed for the Anonymized Network Traffic Graph Challenge ]
@@ -129,7 +109,7 @@ html(lang='en')
                     | Andrew Briasco-Stewart; Michael Zink; Miriam Leeser 
                     br
                     | 2024 IEEE High Performance Extreme Computing Conference
-                    | (HPEC'24)
+                    | (IEEE HPEC'24)
                     |, 2024
                 br
                 // INFOCOM WRKSHPS 2024
@@ -140,7 +120,7 @@ html(lang='en')
                     | Suranga Handagala; Mert Crevik, Michael Zink; Miriam Leeser 
                     br
                     | IEEE INFOCOM 2024-IEEE Conference on Computer Communications Workshops
-                    | (INFOCOM WKSHPS)
+                    | (IEEE INFOCOM WKSHPS'24)
                     |, 2024
                 br
                 // INFOCOM WRKSHPS
@@ -151,7 +131,7 @@ html(lang='en')
                     | Suranga Handagala; Kalyani Patle; Michael Zink; Miriam Leeser 
                     br
                     | IEEE INFOCOM 2023-IEEE Conference on Computer Communications Workshops
-                    | (INFOCOM WKSHPS)
+                    | (IEEE INFOCOM WKSHPS'23)
                     |, 2023
                 br
                 // HPEC22 
@@ -161,7 +141,7 @@ html(lang='en')
                     | Yiyue Jiang, Mushini Rahul, John Dooley, Miriam Leeser 
                     br
                     | 2022 IEEE High Performance Extreme Computing Conference 
-                    | (HPEC'22)
+                    | (IEEE HPEC'22)
                     |, 2022
                 br
                 // CrownComm
@@ -184,7 +164,7 @@ html(lang='en')
                     | Nishanth Shyamkumar, Shivani Burad, André DeHon, Boon Thau Loo
                     br
                     | 18th USENIX Symposium on Networked Systems Design and Implementation
-                    | (NSDI'21)
+                    | (USENIX NSDI'21)
                     |, 2021
 
                 //PR-Flow
@@ -195,8 +175,30 @@ html(lang='en')
                     | Rui Ding, Nevo Magnezi, Raphael Rubin, André DeHon 
                     br
                     | International Conference on Field-Programmable Technology
-                    | (FPT'19)
+                    | (ICFPT'19)
                     |, 2019
+
+                h2 Preprint
+                p.h5 #[a(href='https://61dac.conference-program.com/presentation/?id=RESEARCH209&sess=sess237') FOTA-Quant: FPGA-Oriented Token Adaptive Quantization Framework for the Acceleration of LLMs ] 
+                p.h5 (Poster)
+                p 
+                    |Xuan Shen, 
+                    strong Zhaoyang Han,
+                    | Peiyan Dong, Yanyue Xie, Zhenglun Kong, Zhengang Li, Yanzhi Wang, Miriam Leeser
+                    br
+                    | (2024 Design Automation Conference)
+                    | (DAC'61)
+                    |, 2024
+                p.h5 #[a(href='https://arxiv.org/abs/2402.10787') EdgeQAT: Entropy and Distribution Guided Quantization-Aware Training for the Acceleration of Lightweight LLMs on the Edge]
+                p.h5 (Preprint)
+                p 
+                    |Xuan Shen, Zhenglun Kong, Changdi Yang, 
+                    strong Zhaoyang Han,
+                    | Lei Lu, Peiyan Dong, Cheng Lyu, Chih-hsiang Li, Xuehang Guo, Zhihao Shu, Wei Niu, Miriam Leeser, Pu Zhao, Yanzhi Wang 
+                    br
+                    | arXiv preprint
+                    |, 2024
+                br
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js')

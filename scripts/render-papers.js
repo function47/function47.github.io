@@ -9,3 +9,10 @@ module.exports = function renderPapers() {
     
     sh.cp('-R', sourcePath, destPath)
 };
+
+module.exports = function renderPersonal() {
+    const sourcePath = upath.resolve(upath.dirname(__filename), '../src/personal');
+    const destPath = upath.resolve(upath.dirname(__filename), '../dist/.');
+    
+    sh.cp('-R', sourcePath, destPath)
+};

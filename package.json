@@ -3,9 +3,9 @@
     "name": "startbootstrap-bare",
     "version": "5.0.7",
     "scripts": {
-        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:papers",
+        "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets && npm run build:folders",
         "build:assets": "node scripts/build-assets.js",
-        "build:papers": "node scripts/build-papers.js",
+        "build:folders": "node scripts/build-folders.js",
         "build:pug": "node scripts/build-pug.js",
         "build:scripts": "node scripts/build-scripts.js",
         "build:scss": "node scripts/build-scss.js",
